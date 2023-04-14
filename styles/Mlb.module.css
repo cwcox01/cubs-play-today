@@ -1,0 +1,29 @@
+/* mlb section of page */
+
+.chi-game {
+  gap: 2rem;
+}
+
+.cubs-record-info p {
+  margin-bottom: 0;
+}
+
+.current-inning {
+  margin-top: 1rem;
+}
+
+.cubs-flag-mlb {
+  width: 10%;
+}
+
+/* setting media query for mobile for mlb component */
+
+@media screen and (max-width: 700px) {
+  .chi-game {
+    gap: 0;
+  }
+
+  .cubs-flag-mlb {
+    width: 20%;
+  }
+}
