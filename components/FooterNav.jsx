@@ -5,7 +5,7 @@ import FooterNavItem from "./FooterNavItem";
 
 export default function FooterNav() {
   return (
-    <div className="footer-nav white-background-color d-flex justify-content-center">
+    <div className="footer-nav white-background-color d-flex justify-content-center pt-5 pb-4">
       <nav>
         <ul className="footer-nav">
           <FooterNavItem footerNavText="Home" footerNavUrl="/" />

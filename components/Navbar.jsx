@@ -24,7 +24,9 @@ export default function Navbar() {
   return (
     <div className="navbar white-background-color" ref={navbarRef}>
       <h1 className="site-header ps-3">
-        <Link href="/">Cubs</Link>
+        <Link className="text-decoration-none" href="/">
+          Cubs
+        </Link>
       </h1>
       <div className="rounded-1 ps-3 pe-3 cubs-flag-nav">
         <h1 className="mb-0">W</h1>
