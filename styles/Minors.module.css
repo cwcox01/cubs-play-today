@@ -1,0 +1,40 @@
+.milb-button {
+  border-radius: 4px;
+  background-color: var(--cubRed);
+  border: var(--cubNoValue);
+  text-align: var(--cubCenterValue);
+  font-size: 1rem;
+  padding: 1.25rem;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0.25rem;
+}
+
+.milb-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.milb-button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.milb-button:hover span {
+  padding-right: 25px;
+}
+
+.milb-button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.milb-button a {
+  color: var(--cubWhite);
+}

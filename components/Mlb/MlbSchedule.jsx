@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 
 // importing MLB module css
-import styles from "../styles/Mlb.module.css";
+import styles from "/styles/Mlb.module.css";
 
 const todayDate = new Date().toLocaleDateString("en-US");
 

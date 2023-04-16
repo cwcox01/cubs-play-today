@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 
 // importing MLB module css
-import styles from "../styles/Mlb.module.css";
+import styles from "/styles/Mlb.module.css";
 
 export default function Mlbstandings() {
   // getting today's date and converting it to a string
