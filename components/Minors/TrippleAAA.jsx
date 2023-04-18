@@ -6,22 +6,20 @@ import MilbButton from "./MinorsButton";
 export default function TripleAAA() {
   return (
     <div className="site-padding">
-      <h3 className="section-header white-text-color">AAA - Iowa Cubs</h3>
+      <h4 className="section-header white-text-color">AAA - Iowa Cubs</h4>
       <div>
-        <h5 className="white-text-color">Cubs Standings</h5>
         <div className="mb-3">
           <MilbButton
             milbBtnUrl="https://www.milb.com/iowa/standings/"
-            milbBtnText="Cubs Standings"
+            milbBtnText="I-Cubs Standings"
           />
         </div>
       </div>
       <div>
-        <h5 className="white-text-color">Cubs Schedule</h5>
         <div>
           <MilbButton
             milbBtnUrl="https://www.milb.com/iowa/schedule/2023-04"
-            milbBtnText="Cubs Schedule"
+            milbBtnText="I-Cubs Schedule"
           />
         </div>
       </div>

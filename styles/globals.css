@@ -82,7 +82,22 @@ h1 a:hover {
   color: var(--cubBlue);
 }
 
+/* cubs top 10 prospect table */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 4px;
+}
+
 /* footer section styling */
+
 footer {
   font-size: 0.75rem;
 }
