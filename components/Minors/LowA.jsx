@@ -20,7 +20,7 @@ export default function LowA() {
 			<div className="pb-5">
 				<div>
 					<MilbButton
-						milbBtnUrl="https://www.milb.com/myrtle-beach/schedule/2023-05"
+						milbBtnUrl="https://www.milb.com/myrtle-beach/schedule/2023-07"
 						milbBtnText="Pelicans Schedule"
 					/>
 				</div>

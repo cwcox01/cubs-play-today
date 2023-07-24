@@ -20,7 +20,7 @@ export default function DoubleAA() {
 			<div>
 				<div>
 					<MilbButton
-						milbBtnUrl="https://www.milb.com/tennessee/schedule/2023-05"
+						milbBtnUrl="https://www.milb.com/tennessee/schedule/2023-07"
 						milbBtnText="Smokies Schedule"
 					/>
 				</div>

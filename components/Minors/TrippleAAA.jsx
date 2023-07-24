@@ -18,7 +18,7 @@ export default function TripleAAA() {
 			<div>
 				<div>
 					<MilbButton
-						milbBtnUrl="https://www.milb.com/iowa/schedule/2023-05"
+						milbBtnUrl="https://www.milb.com/iowa/schedule/2023-07"
 						milbBtnText="I-Cubs Schedule"
 					/>
 				</div>
