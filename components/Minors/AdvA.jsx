@@ -20,7 +20,7 @@ export default function AdvA() {
 			<div>
 				<div>
 					<MilbButton
-						milbBtnUrl="https://www.milb.com/south-bend/schedule/2023-05"
+						milbBtnUrl="https://www.milb.com/south-bend/schedule/2023-07"
 						milbBtnText=" SB Cubs Schedule"
 					/>
 				</div>
