@@ -106,8 +106,8 @@ export default function Mlbschedule() {
             </div>
             <div className="pt-1">
               <p className={styles["current-inning"]}>
-                Current Inning: {cubsGameToday.linescore.inningState}{" "}
-                {cubsGameToday.linescore.currentInning}
+                Current Inning: {cubsGameToday.linescore.inningState ? "Not Available"}{" "}
+                {cubsGameToday.linescore.currentInning ? "Not Available"}
               </p>
               <p>Game Status: {cubsGameToday.status.detailedState}</p>
               <div>
