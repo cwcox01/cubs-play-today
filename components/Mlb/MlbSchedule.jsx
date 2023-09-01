@@ -120,7 +120,7 @@ export default function Mlbschedule() {
                       {cubsGameToday.teams.away.team.teamName}
                     </td>
                     <td className="ps-2">
-                      {cubsGameToday.linescore.teams.away.runs}
+                      {cubsGameToday.linescore.teams.away.runs ? cubsGameToday.linescore.teams.away.runs : ""}
                     </td>
                     <td className="ps-2">
                       {cubsGameToday.linescore.teams.away.hits}
