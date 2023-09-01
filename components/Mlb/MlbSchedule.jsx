@@ -123,13 +123,13 @@ export default function Mlbschedule() {
                       {cubsGameToday?.linescore?.teams?.away?.runs ? cubsGameToday.linescore.teams.away.runs : ""}
                     </td>
                     <td className="ps-2">
-                      {cubsGameToday.linescore.teams.away.hits}
+                      {cubsGameToday.linescore?.teams?.away?.hits ? cubsGameToday.linescore.teams.away.hits : ""}
                     </td>
                     <td className="ps-2">
-                      {cubsGameToday.linescore.teams.away.errors}
+                      {cubsGameToday.linescore?.teams?.away?.errors ? cubsGameToday.linescore.teams.away.errors : ""}
                     </td>
                     <td className="ps-2">
-                      {cubsGameToday.linescore.teams.away.leftOnBase}
+                      {cubsGameToday.linescore?.teams?.away?.leftOnBase ? cubsGameToday.linescore.teams.away.leftOnBase : ""}
                     </td>
                   </tr>
                   <tr>
@@ -137,16 +137,16 @@ export default function Mlbschedule() {
                       {cubsGameToday.teams.home.team.teamName}
                     </td>
                     <td className="ps-2">
-                      {cubsGameToday.linescore.teams.home.runs}
+                      {cubsGameToday.linescore?.teams?.home?.runs ? cubsGameToday.linescore.teams.home.runs : ""}
                     </td>
                     <td className="ps-2">
-                      {cubsGameToday.linescore.teams.home.hits}
+                      {cubsGameToday.linescore?.teams?.home?.hits ? cubsGameToday.linescore.teams.home.hits : ""}
                     </td>
                     <td className="ps-2">
-                      {cubsGameToday.linescore.teams.home.errors}
+                      {cubsGameToday.linescore?.teams?.home?.errors ? cubsGameToday.linescore.teams.home.errors : ""}
                     </td>
                     <td className="ps-2">
-                      {cubsGameToday.linescore.teams.home.leftOnBase}
+                      {cubsGameToday.linescore?.teams?.home?.leftOnBase ? cubsGameToday.linescore.teams.home.leftOnBase : ""}
                     </td>
                   </tr>
                 </table>
